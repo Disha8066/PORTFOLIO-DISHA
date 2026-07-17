@@ -1,112 +1,262 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umme Mahia | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
+
 <body>
-<nav>
-    <h2>Umme Mahia</h2>
-    <div>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+
+
+
+<nav class="navbar">
+
+    <div class="logo">
+        Umme Mahia
     </div>
+
+    <ul class="nav-links" id="navLinks">
+
+        <li><a href="#home">Home</a></li>
+
+        <li><a href="#about">About</a></li>
+
+        <li><a href="#education">Education</a></li>
+
+        <li><a href="#skills">Skills</a></li>
+
+        <li><a href="#projects">Projects</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+    <div class="menu-btn" id="menuBtn">
+
+        <i class="fa-solid fa-bars"></i>
+
+    </div>
+
 </nav>
+
+
+
 <section id="home" class="hero">
-    <h1>Hello, I am <span>Umme Mahia</span></h1>
-    <p>Student | | Web Developer </p>
+
+<div class="hero-text">
+
+<h1>Hello, I'm</h1>
+
+<h2>Umme Mahia</h2>
+
+<h3>Computer Science Student</h3>
+
+<p>
+Passionate about Web Development, Django and Software Development.
+</p>
+
+<a href="#projects" class="btn">
+View My Work
+</a>
+
+</div>
+
+<div class="hero-image">
+
+<img src="https://via.placeholder.com/300" alt="Profile">
+
+</div>
+
 </section>
+
+
 <section id="about">
-    <h2>About Me</h2>
-    <p>
-        I am a passionate Computer Science and Engineering student with a interest in web development and software development.
-        I enjoy learning new technologies and building innovative, user-friendly applications.
-    </p>
+
+<h2>About Me</h2>
+
+<p>
+
+I am a Computer Science and Engineering student with a passion for creating modern websites and web applications.
+
+I enjoy learning new technologies and solving real-world problems through programming.
+
+</p>
+
 </section>
+
+
+
 <section id="education">
-    <h2>Education</h2>
-<div class="education">
- <div class="edu-card">
-            <div class="year">2023 - Present</div>
-            <div class="content">
-                <h3>BSc in Computer Science & Engineering</h3>
-                <p><strong>Bangladesh Army International University of Science and Technology (BAIUST)</strong></p>
-            </div>
-        </div>
 
-        <div class="edu-card">
-            <div class="year">2021</div>
-            <div class="content">
-                <h3>Higher Secondary Certificate (HSC)</h3>
-                <p><strong>Cumilla Government College</strong></p>
-            </div>
-        </div>
+<h2>Education</h2>
 
-        <div class="edu-card">
-            <div class="year">2019</div>
-            <div class="content">
-                <h3>Secondary School Certificate (SSC)</h3>
-                <p><strong>Laksam Pilot Girl's High School</strong></p>
-            </div>
-        </div>
+<div class="education-container">
 
-    </div>
+<div class="edu-card">
+
+<h3>BSc in CSE</h3>
+
+<p>Bangladesh Army International University of Science and Technology (BAIUST)</p>
+
+<span>2023 - Present</span>
+
+</div>
+
+<div class="edu-card">
+
+<h3>Higher Secondary Certificate</h3>
+
+<p>Cumilla Government College</p>
+
+<span>2021</span>
+
+</div>
+
+<div class="edu-card">
+
+<h3>Secondary School Certificate</h3>
+
+<p>Laksam Pilot Girl's High School</p>
+
+<span>2019</span>
+
+</div>
+
+</div>
+
 </section>
+
+
+
 <section id="skills">
-    <h2>My Skills</h2>
 
-    <div class="skills">
-        <div>HTML</div>
-        <div>CSS</div>
-        <div>PHP</div>
-        <div>Python</div>
-        <div>Django</div>
-        <div>Database</div>
-    </div>
+<h2>My Skills</h2>
+
+<div class="skills-container">
+
+<div class="skill">HTML</div>
+
+<div class="skill">CSS</div>
+
+<div class="skill">JavaScript</div>
+
+<div class="skill">Python</div>
+
+<div class="skill">Django</div>
+
+<div class="skill">PHP</div>
+
+<div class="skill">MySQL</div>
+
+<div class="skill">Git & GitHub</div>
+
+</div>
+
 </section>
+
+
 
 <section id="projects">
-    <h2>My Projects</h2>
-<div class="projects">
- <div class="card">
-        <h3>LostLink</h3>
-        <p>A Django-based Lost and Found Management System that allows users to report, search, and recover lost items through a secure and user-friendly platform.</p>
-    </div>
-<div class="card">
-        <h3>Decor Home</h3>
-        <p>An e-commerce website for home decoration products, featuring product browsing, shopping cart and order management.</p>
-    </div>
-<div class="card">
-        <h3>IoT-Based Intrusion Detection System (IDS)</h3>
-        <p>An IoT security system using ESP32 and sensors to detect unauthorized access and send real-time alerts for improved safety.</p>
-    </div>
+
+<h2>Projects</h2>
+
+<div class="project-container">
+
+<div class="project-card">
+
+<h3>LostLink</h3>
+
+<p>Django based Lost & Found Management System.</p>
+
 </div>
-</section>
-<section id="contact">
-    <h2>Contact Me</h2>
-<div class="card">
-        <p>
-    Email:
-    <a href="mailto:ummemahiadisha@gmail.com">
-        ummemahiadisha@gmail.com
-    </a>
-</p>
- <p>
-    GitHub:
-    <a href="https://github.com/Disha8066" target="_blank">
-        github.com/Disha8066
-    </a> 
-</p>
-</p> </div>
+
+<div class="project-card">
+
+<h3>Decor Home</h3>
+
+<p>E-commerce website for Home Decoration products.</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>IoT Intrusion Detection</h3>
+
+<p>ESP32 based Intrusion Detection System.</p>
+
+</div>
+
+</div>
+
 </section>
 
+
+
+<section id="contact">
+
+<h2>Contact Me</h2>
+
+<div class="contact-card">
+
+<p>
+
+<i class="fa-solid fa-envelope"></i>
+
+<a href="mailto:ummemahiadisha@gmail.com">
+
+ummemahiadisha@gmail.com
+
+</a>
+
+</p>
+
+<p>
+
+<i class="fa-brands fa-github"></i>
+
+<a href="https://github.com/Disha8066" target="_blank">
+
+github.com/Disha8066
+
+</a>
+
+</p>
+
+<p>
+
+<i class="fa-brands fa-linkedin"></i>
+
+<a href="#">
+
+LinkedIn Profile
+
+</a>
+
+</p>
+
+</div>
+
+</section>
+
+
 <footer>
-    <p>© 2026 Mahia. All Rights Reserved.</p>
+
+<p>
+
+© 2026 Umme Mahia | All Rights Reserved
+
+</p>
+
 </footer>
+
 <script src="script.js"></script>
+
 </body>
+
 </html>
